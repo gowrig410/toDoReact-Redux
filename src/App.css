@@ -1,0 +1,125 @@
+body{
+    background-color: #f0f4f8; 
+}
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Flex container for input and button */
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input styling */
+  .todo-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .todo-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Button styling */
+  .todo-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px; /* Space between input and button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Space between todo items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Heading styling */
+  .todo-text {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Remove margin to eliminate extra space */
+  }
+  
+  .todo-text h5 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-right: 10px; /* Space between number and text */
+  }
+  
+  .todo-text p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Total count styling remains unchanged */
+  .total-count {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .total-count span {
+    color: #007bff;
+  }
+
+  .delete-button {
+    background-color: #ff4d4d; /* Set background color to red */
+    color: white; /* Set text color to white for contrast */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Optional: rounded corners */
+    padding: 8px 12px; /* Add some padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .delete-button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+  }
+
+
+/* Add this style for the image */
+.todo-image {
+    display: block; /* Center the image */
+    margin: 20px auto; /* Center the image with auto margin */
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
